@@ -1,0 +1,69 @@
+# Interstellar Passenger Rescue - Spaceship Titanic
+
+## Overview
+
+Welcome to the Interstellar Passenger Rescue project! This project aims to predict which passengers were transported to an alternate dimension after the Spaceship Titanic encountered a spacetime anomaly. By leveraging machine learning techniques, we analyze passenger data to assist rescue crews in identifying and retrieving the lost individuals.
+
+This project is part of the Kaggle "Spaceship Titanic" competition, a Getting Started competition designed for those new to data science and machine learning.
+
+## Project Description
+
+The Spaceship Titanic, an interstellar passenger liner, launched on its maiden voyage with almost 13,000 passengers, traveling from our solar system to newly habitable exoplanets. However, while navigating through Alpha Centauri, the ship collided with a hidden spacetime anomaly, causing nearly half of the passengers to be transported to an alternate dimension.
+
+Our goal is to build a machine learning model to predict which passengers were transported using the data recovered from the damaged computer system of the Spaceship Titanic.
+
+## Data
+
+The dataset includes the following features:
+- **PassengerId**: Unique ID for each passenger.
+- **HomePlanet**: The planet the passenger departed from.
+- **CryoSleep**: Indicates whether the passenger was in cryosleep.
+- **Cabin**: The cabin number the passenger was staying in.
+- **Destination**: The planet the passenger is ultimately headed to.
+- **Age**: The age of the passenger.
+- **VIP**: Whether the passenger has VIP status.
+- **RoomService**, **FoodCourt**, **ShoppingMall**, **Spa**, **VRDeck**: Expenses in various amenities.
+- **Name**: The name of the passenger.
+- **Transported**: Whether the passenger was transported to the alternate dimension (target variable).
+
+## Evaluation
+
+Submissions are evaluated based on classification accuracy, the percentage of predicted labels that are correct. The submission format is a CSV file with two columns: `PassengerId` and `Transported`.
+
+## Getting Started
+
+To get started, clone this repository and follow the steps below:
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/your-username/Interstellar-Passenger-Rescue-Spaceship-Titanic.git
+    cd Interstellar-Passenger-Rescue-Spaceship-Titanic
+    ```
+
+2. **Install dependencies**:
+    Make sure you have Python and pip installed. Then, install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. **Explore the data**:
+    The dataset is available in the `data/` directory. Start by exploring the data and understanding the features.
+
+4. **Run the Jupyter Notebook**:
+    Open the Jupyter Notebook to see the data analysis and model building steps:
+    ```sh
+    jupyter notebook
+    ```
+    The notebook `Spaceship_Titanic_Prediction.ipynb` contains the full workflow.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
+
+## Acknowledgments
+
+This project is based on the Kaggle "Spaceship Titanic" competition. Special thanks to the Kaggle community for providing the platform and resources for this competition.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
